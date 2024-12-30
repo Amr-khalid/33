@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="registercar.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="#" class="logo">Register New Car</a>
+      <ul>
+        <li>Please Fill This Page</li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="text">
+        <form class="f1" action="registernewcar.php" method="post">
+          <label for="l1" class="form-field" >Model</label>
+          <input type="text" class="l1 form-field" name="model"><br>
+          <label for="l2" class="form-field">Year Of Made</label>
+          <input type="date" id="l2" class="form-field" name="YEAR_OF_MADE"><br>
+          <label for="l3" class="form-field" >Car Status</label>
+          <select name="carstatus" id="l3" class="form-field">
+            <option value="">-- Select Status --</option> 
+            <option value="Active">Active</option>
+            <option value="outofservice">Out Of Service</option>
+         </select>
+          <button type="submit" name="submit">SAVE</button>
+        </form>
+      </div>
+      <div class="image">
+        <img src="s1.jpg">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
